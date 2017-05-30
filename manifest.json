@@ -1,0 +1,21 @@
+{
+	"name": "虚拟币监控",
+	"version": "1.0",
+	"permissions": [
+		"https://yunbi.com/",
+		"https://plugin.sosobtc.com/",
+		"storage",
+		"alarms",
+		"notifications"
+	],
+	"browser_action": {
+		"default_title": "填充链接",
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+	"background": {
+    "scripts": [ "background.js", "bower_components/jquery/dist/jquery.min.js" ],
+    "persistent": false
+  },
+	"manifest_version": 2
+}

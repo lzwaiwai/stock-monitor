@@ -1,0 +1,17 @@
+{
+  "name": "yunbi",
+  "homepage": "https://github.com/lzwaiwai/chrome-plugin-getPosOfEles",
+  "authors": [
+    "lzwaiwai <lzwai3230@foxmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
